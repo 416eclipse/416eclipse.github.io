@@ -1,7 +1,28 @@
-h1, h2, h3, h4, h5, h6 {
+:root {
+  --primary:  #bfdd89;
+  --secondary: #75986b;
+}
+
+html {
     font-family: 'Palatino Linotype', Palatino, 'Times New Roman', Times, serif;
 }
 
-p {
+p, nav {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background:  var(--primary);
+    padding: 1em;
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: var(--secondary);
+    }
 }
