@@ -5,6 +5,7 @@
 
 html {
     font-family: 'Palatino Linotype', Palatino, 'Times New Roman', Times, serif;
+    margin: 0;
 }
 
 p, nav {
@@ -25,4 +26,13 @@ nav {
         text-decoration: underline;
         color: var(--secondary);
     }
+}
+
+.chmnav {
+    background: var(--primary);
+    padding: 1em;
+}
+
+.logo-container {
+    background: ivory;
 }
