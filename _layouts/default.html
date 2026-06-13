@@ -7,16 +7,7 @@
     <title>{{ page.title }}</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navlogo">
-            <img src="/assets/images/chemiclipse-logo-white.svg" alt="Chemiclipse" width="60" height="60">
-        </div>
-            
-        <ul class="navlinks">
-            <li><a href="/about.md">About</a></li>
-            <li><a href="/blog.html">All Posts</a></li>
-        </ul>
-    </nav>
+    {% include navigation.html %}
     <div class="content">
         {{ content }}
     </div>
