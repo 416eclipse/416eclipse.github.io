@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
   --primary:  #bfdd89;
   --secondary: #75986b;
 }
 
 html {
-    font-family: 'Palatino Linotype', Palatino, 'Times New Roman', Times, serif;
+    font-family: 'Palatino Linotype', Palatino, 'EB Garamond', 'Times New Roman', Times, serif;
     margin: 0;
 }
 
@@ -43,14 +45,14 @@ p {
 
     a {
         text-decoration: none;
-        color: #cccccc;
+        color: white;
         font-size: 1rem;
         font-weight: 500;
         transition: color 0.3s ease;
     }
 
     a:hover, a:active {
-        color: black;
+        color: var(--primary);
     }
 }
 
