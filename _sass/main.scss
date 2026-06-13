@@ -8,25 +8,14 @@ html {
     margin: 0;
 }
 
-p, nav {
+body {
+    padding-top: 70px;
+}
+
+p {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
-nav {
-    background:  var(--primary);
-    padding: 1em;
-
-    a {
-        text-decoration: none;
-        font-weight: bold;
-        color: black;
-    }
-
-    a:hover {
-        text-decoration: underline;
-        color: var(--secondary);
-    }
-}
 
 .navbar {
     background: var(--primary);
