@@ -64,7 +64,7 @@ p {
 
 /* Responsive stuff */
 @media (max-width: 768px) {
-  .chmnav {
+  .navbar {
     padding: 0 20px;
   }
   
@@ -75,4 +75,12 @@ p {
   .navlinks a {
     font-size: 0.9rem;
   }
+
+  .content {
+    padding: 0 2%;
+  }
+}
+
+.content {
+    padding: 0 10%;
 }
