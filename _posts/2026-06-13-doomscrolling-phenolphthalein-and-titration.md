@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Doomscrolling, phenolphthalein, and titration
-categories: chemistry
 ---
 
 Dopamine rushes from short, mindless so-called “doomscrolling” fueled most of my days in the breaks between a life of academics. It was then I saw a video on *titration*. Despite having a somewhat mild interest in chemistry and having done modestly well in my chemistry classes by then, I hadn’t known about titration much less even heard the word before.

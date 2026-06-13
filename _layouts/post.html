@@ -2,17 +2,6 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<p>
-    {{ page.date | date_to_string }} - 
-    {% if page.categories.size > 0 %}
-    <span class="post-categories">
-        {% for category in page.categories %}
-            <a href="/archive.html#{{ category | slugify }}/" class="category-tag">
-                {{ category }}
-            </a>
-        {% endfor %}
-    </span>
-    {% endif %}
-</p>
+<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
 {{ content }}
